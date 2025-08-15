@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfect Buds</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Perfect Buds – Your destination for delicious breads and soothing teas.">
+    <meta name="author" content="Your Name">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header, main, footer {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1, h2 {
+            color: #222;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p, li, label, input, textarea {
+            font-size: 1rem;
+        }
+
+        ul, ol {
+            padding-left: 1.5rem;
+        }
+
+        .highlight {
+            background-color: #ffe0e0;
+            padding: 0.5rem;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        form {
+            margin-top: 1rem;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.3rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 0.6rem 1.2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        .media {
+            margin: 1rem 0;
+        }
+
+        .message-box {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-left: 5px solid #e74c3c;
+        }
+    </style>
+
+    <script>
+        function greet() {
+            alert("Hey there! This is Perfect Buds — glad you've found us.");
+        }
+    </script>
+</head>
+
+<body onload="greet()">
+
+    <header>
+        <h1>Welcome to <strong>Perfect Buds</strong>!</h1>
+        <p>This is <strong>what you are</strong> looking for. <em>Come, find out!</em></p>
+        <p class="highlight">Appetizing. Delicious. Life.</p>
+    </header>
+
+    <main>
+        <h2>Menu</h2>
+        <ul>
+            <li>Garlic Bread</li>
+            <li>Bagel</li>
+            <li>Baguette</li>
+        </ul>
+
+        <h2>Tea for Your Liking</h2>
+        <ol>
+            <li>Black Tea</li>
+            <li>Green Tea</li>
+            <li>Pu-erh Tea</li>
+        </ol>
+
+        <p>Visit <a href="https://www.bing.com/search?q=FOOD%20WEBSITE%20THAT%20IS%20BREAD%20AND%20TEA" target="_blank">this page</a> for more info.</p>
+
+        <h2>Song Vibe for You</h2>
+        <div class="media">
+            <audio controls>
+                <source src="c:\Users\ciscstudent\Downloads\ytmp3free.cc_food-background-music-for-videos-no-copyright-youtubemp3free.org.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <h2>Our Foods</h2>
+        <div class="media">
+            <video width="100%" height="auto" controls>
+                <source src="c:\Users\ciscstudent\Downloads\videoplayback.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <h2>Have a Look at Your Perfect Buds!</h2>
+        <img src="c:\Users\ciscstudent\Downloads\turkish-bagel-with-cup-tea-wooden-surface-high-angle-view.jpg" alt="Perfect to Your Buds" style="max-width: 100%; height: auto;">
+
+        <div class="message-box">
+            <p>Hope you <span style="color:red;">love</span> our food. <strong>Excited to see</strong> you again!</p>
+        </div>
+
+        <h2>Schedule</h2>
+        <table>
+            <tr>
+                <th>Timing</th>
+                <th>Eat with Us</th>
+            </tr>
+            <tr>
+                <td>Open</td>
+                <td>9:00 AM – 9:00 PM</td>
+            </tr>
+            <tr>
+                <td>Closed</td>
+                <td>10:00 PM – 8:00 AM</td>
+            </tr>
+        </table>
+
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem 0; font-size: 0.9rem;">
+        &copy; 2025 Perfect Buds. All rights reserved.
+    </footer>
+
+</body>
+</html>
